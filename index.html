@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding -->
+    <meta charset="UTF-8" />
+    <!-- Compatibility mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Ensure proper scaling on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import Google Fonts (Open Sans) for custom typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+    <!-- Link to the custom CSS file for the Quiz project -->
+    <link rel="stylesheet" href="./quiz.css" />
+    <!-- Page Title -->
+    <title>Quiz Project</title>
+  </head>
+  <body>
+    <!-- Main container wrapping the entire quiz application -->
+    <div class="container">
+      <!-- Quiz game section -->
+      <div class="game">
+        <!-- Content area that contains the question and answers -->
+        <div class="content">
+          <!-- Element where the current question will be displayed -->
+          <h1 class="question"></h1>
+          <!-- Container for the answer options -->
+          <div class="answers">
+            <!-- Answer options will be dynamically inserted here -->
+          </div>
+        </div>
+        <!-- Submit button to confirm the answer -->
+        <button class="submit">Submit</button>
+      </div>
+      
+      <!-- Result section, which is shown after the quiz ends -->
+      <div class="result">
+        <!-- Congratulations message -->
+        <h1>Congratulations</h1>
+        <!-- Element to display the number of correct answers -->
+        <h3 class="correct"></h3>
+        <!-- Element to display the number of wrong answers -->
+        <h3 class="wrong"></h3>
+        <!-- Element to display the final score -->
+        <h2 class="score"></h2>
+        <!-- Button to restart the quiz -->
+        <button class="play">Play again</button>
+      </div>
+    </div>
+
+    <!-- Link to the custom JavaScript file for quiz functionality -->
+    <script src="./quiz.js"></script>
+  </body>
+</html>
