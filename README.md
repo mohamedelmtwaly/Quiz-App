@@ -1,6 +1,5 @@
 # ⭐ Quiz App with Pure JavaScript, HTML & CSS
 
-![Project Banner](Template.JPG)
 
 ## 🔍 Overview
 
